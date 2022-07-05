@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from './Shared/Banner';
+import OurWorks from './Shared/OurWorks';
 import ProvideServices from './Shared/ProvideServices';
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
             <Banner />
             <ProvideServices />
+            <OurWorks />
 
         </div>
     );
