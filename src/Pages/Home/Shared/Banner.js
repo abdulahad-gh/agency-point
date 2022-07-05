@@ -8,8 +8,8 @@ const Banner = () => {
             <div className='w-full h-[453px] lg:py-8' style={{ backgroundColor: '#FACF61' }} >
                 <div className='lg:flex lg:px-20  items-center'>
                     <div className='flex-1 '>
-                        <div className='w-[397px]'>
-                            <h1 className='text-[48px] text-[#111430] font-bold leading-tight'>Let's Grow Your Brand To The Next Level.</h1>
+                        <div className='lg:w-[397px]'>
+                            <h1 className='lg:text-[48px] text-[#111430] font-bold leading-tight'>Let's Grow Your Brand To The Next Level.</h1>
                             <p className='my-6'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita magnam repellendus, culpa reiciendis qui explicabo placeat labore eveniet aliquam rem?</p>
                             <a className='btn bg-[#111430] px-10' href="https://linkedin.com">Hire Us</a>
                         </div>
@@ -25,7 +25,7 @@ const Banner = () => {
             </div> */}
             </div>
 
-            <div className='flex gap-12 justify-center items-center h-[200px]'>
+            <div className='lg:flex gap-12 justify-center items-center h-[200px]'>
                 <img className='w-[140px] h-[40px]' src="https://i.ibb.co/3pCQXh9/slack.png" alt="" />
                 <img className='w-[129px] h-[44px]' src="https://i.ibb.co/qprCzp2/google.png" alt="" />
                 <img className='w-[99px] h-[56px]' src="https://i.ibb.co/gdZC9NJ/uber.png" alt="" />
