@@ -2,12 +2,12 @@ import React from 'react';
 
 const Navbar = () => {
     const menuItems = <>
-        <li><a>Home</a></li>
+        <li><a href='/'>Home</a></li>
         <li><a>Our Portfolio</a></li>
         <li><a>Our Team</a></li>
         <li><a>Contact Us</a></li>
         <li>
-            <a class="btn px-8 bg-[#111430] text-gray-200">Login</a>
+            <a href='login' class="btn px-8 bg-[#111430] text-gray-200">Login</a>
 
 
         </li>
